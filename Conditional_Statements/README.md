@@ -4,6 +4,14 @@ Conditional statements allow a Bash script to make decisions based on whether a 
 
 ---
 
+# Conditional Expressions (`[[ ]]`)
+
+`[[ ... ]]` is Bash's preferred conditional expression syntax.
+
+Compared to `[ ... ]`, it provides safer parsing, better string handling, and additional operators.
+
+---
+
 ## Syntax
 
 ```bash
